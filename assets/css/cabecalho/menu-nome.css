@@ -1,0 +1,7 @@
+.menu__nome{
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    height: 24px;
+    width: 30%;
+}
