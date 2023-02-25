@@ -4,10 +4,12 @@
     gap: 4px;
     height: 24px;
     width: 92px;
-}
-.titulo__network__item  {
     display: flex;
     gap: 10px;
 }
+.titulo__network__item a {
+    color: var(--cinza);
+}
+
 
 

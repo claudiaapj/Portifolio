@@ -1,0 +1,17 @@
+.skills__container__item{
+    background-color: var(--branco);
+    color: var(--cinza);
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 160px;
+    justify-content: flex-end;
+    padding: 16px;
+    width: 165px;
+}
+
+.skills__container__item img{
+    height: 37px;
+    width: 24px;
+}

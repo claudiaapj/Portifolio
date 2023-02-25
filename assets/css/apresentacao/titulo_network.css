@@ -1,7 +1,7 @@
 .titulo__network{
     display: flex;
     height: 24px;
-    gap: 4px;
-    width: 400px;
+    width: 440px;
+    justify-content: space-between;
 }
 

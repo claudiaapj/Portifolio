@@ -2,7 +2,7 @@
     --cinza: #464646;
     --background__azul: #EAF2FD;
     --branco: #FFFFFF;
-    --bacground__fundo: #F5F5F5;
+    --background__fundo: #F5F5F5;
     --azul__botao: #2A7AE4;
 
 }
@@ -10,6 +10,10 @@
 a{
     cursor: pointer;
     text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline var(--azul__botao);
 }
 
 body{
