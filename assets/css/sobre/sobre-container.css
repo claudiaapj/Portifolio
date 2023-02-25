@@ -1,0 +1,6 @@
+.sobre__container{
+    display: flex;
+    flex-direction: column;
+    height: 255px;
+    width: 900px;
+}

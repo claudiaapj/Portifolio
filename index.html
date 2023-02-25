@@ -5,39 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;500;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/menu.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/menu-nome.css">
     <link rel="stylesheet" href="./assets/css/cabecalho/menu-lista.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/menu-lista-item.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/apresentacao.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/apresentacao_titulo-descricao.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/apresentacao__titulo.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/banner.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/apresentacoes.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/titulo_network.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao/titulo-network-item.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-assinatura.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-container.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-paragrafo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
 
-    <title> Portifólio Cláudia Aguilar</title>
-</head>
-<body>
-    <header class="menu">
-        <div class="menu__nome">
-            <img src="./assets/imagem/Group.png" alt="">
-            <h3>Cláudia Aguilar</h3>
-        </div>
-        <nav>
-            <ul class="menu__lista">
-                <li class="menu__lista__item"><a href="#sobremim">Sobre mim</a></li>
-                <li class="menu__lista__item"><a href="#skills">Skills</a></li>
-                <li class="menu__lista__item"><a href="#hobbies">Hobbies</a></li>
-                <li class="menu__lista__item"><a href="#formacao">Formações e Cursos</a></li>
-                <li class="menu__lista__item"><a href="#experiencia">Experiência</a></li>
-                <li class="menu__lista__item"><a href="#contato">claudiaaguilarp@outlook.com</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section class="apresentacao">
-        <div class="apresentacao__titulo">
-            <h2>Olá o meu nome é Cláudia Aguilar e sou desenvolvedora Web</h2>
-            <h3 class="apresentacao__titulo__descricao">Atualmente curso Sistemas para Internet no Centro Universitário Una e estou participando no projeto Oracle ONE na Alura.</h3>
-        </div>
-        <div class="foto"></div>
-    </section>
-    
+    <div class="all">
+        <title>Portifólio - Cláudia Aguilar</title>
+        <header class="menu">
+            <div class="menu__nome">
+                <img src="./assets/imagem/Group.png" alt="">
+                <h3>Cláudia Aguilar</h3>
+            </div>
+            <nav>
+                <ul class="menu__lista">
+                    <li class="menu__lista__item"><a href="#sobremim">Sobre mim</a></li>
+                    <li class="menu__lista__item"><a href="#skills">Skills</a></li>
+                    <li class="menu__lista__item"><a href="#hobbies">Hobbies</a></li>
+                    <li class="menu__lista__item"><a href="#formacao">Formações e Cursos</a></li>
+                    <li class="menu__lista__item"><a href="#experiencia">Experiência</a></li>
+                    <li class="menu__lista__item"><a href="#contato">claudiaaguilarp@outlook.com</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="apresentacao">
+            <div class="apresentacoes">
+                <h2 class="apresentacao__titulo">Olá o meu nome é Cláudia Aguilar e sou desenvolvedora Web</h2>
+                <h3 class="apresentacao__titulo__descricao">Atualmente curso Sistemas para Internet no Centro Universitário Una e estou participando no projeto Oracle ONE na Alura.</h3>
+                <ul class="titulo__network">
+                    <li class="titulo__network__item"><a href="http://">Github<img src="./assets/imagem/seta.png" alt=""></a></li>
+                    <li class="titulo__network__item"><a href="http://">Linkedin<img src="./assets/imagem/seta.png" alt=""></a></li>
+                    <li class="titulo__network__item"><a href="http://">Instagram<img src="./assets/imagem/seta.png" alt=""></a></li>
+                    <li class="titulo__network__item"><a href="http://">Curriculo<img src="./assets/imagem/seta.png" alt=""></a></li>
+                </ul>
+            </div>
+            <div class="banner"></div>
+        </section>
+        <section  id="sobremim" class="sobre">
+            <section class="sobre__container">
+                    <h3 class="sobre__titulo">Sobre mim</h3>
+                    <div class="container__paragrafo">
+                        <p class="sobre__paragrafo">Sou Estudante no Centro Universitário Una cursando Sistemas para internet. Também participo do programa Oracle ONE na Alura na formação Front-End. Sou apaixonada pelo universo da tecnologia e amo programar</p>
+                        <p class="sobre__paragrafo">No tempo livre gosto de ouvir música, ler um livro, viajar, assitir e séries. Também gosto de está com a minha familia que me apoia nessa jornada.  </p>
+                    </div>
+                <img src="./assets/imagem/assinatura.png" alt="" class="sobre__assinatura">
+            </section>
+        </section>
+    </div>  
+    <footer>
+
+    </footer>  
 </body>
 </html>

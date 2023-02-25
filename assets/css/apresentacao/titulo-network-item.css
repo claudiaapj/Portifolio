@@ -1,0 +1,13 @@
+.titulo__network__item  {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    height: 24px;
+    width: 92px;
+}
+.titulo__network__item  {
+    display: flex;
+    gap: 10px;
+}
+
+

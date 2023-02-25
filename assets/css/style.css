@@ -4,10 +4,28 @@
     --branco: #FFFFFF;
     --bacground__fundo: #F5F5F5;
     --azul__botao: #2A7AE4;
-    
+
 }
 
 a{
     cursor: pointer;
     text-decoration: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    height: 90px;
 }

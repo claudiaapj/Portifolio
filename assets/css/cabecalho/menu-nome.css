@@ -1,5 +1,6 @@
 .menu__nome{
     align-items: center;
+    color: var(--cinza);
     display: flex;
     gap: 8px;
     height: 24px;

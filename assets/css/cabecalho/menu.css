@@ -1,6 +1,9 @@
 .menu{
-    display: flex;
-    justify-content: space-around;
     align-items: center;
+    display: flex;
+    height: 88px;
+    justify-content: space-around;
+    padding: 12px 0;
+    width: 90%;
    
 }
