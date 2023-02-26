@@ -1,0 +1,7 @@
+.formacao{
+    align-items: center;
+    background-color: var(--background__azul);
+    display: flex;
+    flex-direction: column;
+    width: 1250px;
+}

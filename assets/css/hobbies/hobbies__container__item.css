@@ -1,4 +1,4 @@
-.skills__container__item{
+.hobbies__container__item{
     background-color: var(--branco);
     color: var(--cinza);
     display: flex;
@@ -10,7 +10,7 @@
     width: 165px;
 }
 
-.skills__container__item img{
+.hobbies__container__item img{
     height: 37px;
     width: 24px;
 }

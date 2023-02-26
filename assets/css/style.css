@@ -18,6 +18,7 @@ a:hover{
 
 body{
     font-family: 'Raleway', sans-serif;
+    margin: 2%;
 }
 .all{
     display: flex;
@@ -31,5 +32,16 @@ li{
 }
 
 footer{
-    height: 90px;
+    height: 102px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer__rodape{
+    color: var(--cinza);
+    font-weight: 500;
+    line-height: 19px;
+    text-align: center;
+    height: 38px;
 }
