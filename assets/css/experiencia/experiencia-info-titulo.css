@@ -1,0 +1,8 @@
+.experiencia__info__titulo{
+    color: var(--cinza);
+    font-size: 22px;
+    height: 26px;
+    line-height: 19px;
+    padding-left: 20px;
+    width: 348px;
+}
