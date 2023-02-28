@@ -1,0 +1,7 @@
+.experiencia__descricao{
+    display: flex;
+    gap: 16px;
+    height: 51px;
+    margin-left: 15px;
+    width: 560px;
+}

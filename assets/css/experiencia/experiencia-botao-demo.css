@@ -1,0 +1,7 @@
+.experiencia__botao__demo {
+    background-color: var(--azul__botao);
+    border: none;
+    color: var(--branco);
+    height: 19px;
+    width: 116px;
+}

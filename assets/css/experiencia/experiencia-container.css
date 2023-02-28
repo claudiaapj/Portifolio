@@ -1,4 +1,6 @@
 .experiencia__container{
-    display: flex;
     align-items: center;
+    display: flex;
+    height: 400px;
+    justify-content: center;
 }

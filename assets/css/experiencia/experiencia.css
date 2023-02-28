@@ -1,0 +1,6 @@
+.experiencia{
+        display: flex;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }

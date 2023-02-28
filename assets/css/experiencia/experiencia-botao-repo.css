@@ -1,0 +1,7 @@
+.experiencia__botao__repo {
+    background-color: var(--branco);
+    border: none;
+    color: var(--azul__botao);
+    height: 19px;
+    width: 84px;
+}

@@ -1,9 +1,9 @@
 .experiencia__texto{
     color: var(--cinza);
     font-weight: 500;
-    line-height: 19px;
-    width: 348px;
     height: 26px;
+    line-height: 19px;
     margin-top: 07px;
     padding-left: 20px;
+    width: 348px;
 }
