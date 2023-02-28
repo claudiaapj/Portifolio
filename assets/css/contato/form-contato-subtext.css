@@ -1,0 +1,11 @@
+.form__contato__subtext h3{
+    color: var(--cinza);
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+.form__contato__subtext{
+    height: 48px;
+    line-height: 19px;
+    width: 600px;
+}

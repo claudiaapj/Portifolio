@@ -1,0 +1,7 @@
+.form__contato__form{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    height: 397px;
+    width: 656px;
+}

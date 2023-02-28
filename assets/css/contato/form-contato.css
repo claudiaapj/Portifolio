@@ -1,0 +1,9 @@
+.form__contato{
+    align-items: center;
+    background-color: var(--background__azul);
+    display: flex;
+    flex-direction: column;
+    height: 630px;
+    padding: 30px  20px;
+    width: 1250px;
+}
